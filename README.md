@@ -75,6 +75,6 @@ The program use TasteDive to get related movies for a whole list of titles, comb
 **A Sentiment Classifier. This program performs a sentiment analysis with Twitter data in this particular case.**
 
 The program reads through some collected raw Twitter tweets. Then makes a CSV file to produce a graph of your results and visualize the data.
-The CSV file shows the Number of Retweets, Number of Replies, Positive Score, Negative Score and Net Score of each twit.
+The CSV file shows the Number of Retweets, Number of Replies, Positive Score, Negative Score and Net Score of each tweet.
 
 
