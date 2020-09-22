@@ -70,9 +70,11 @@ The TasteDive API lets you provide a movie (or bands, TV shows, etc.) as a query
 The program use TasteDive to get related movies for a whole list of titles, combines the resulting lists of related movies and sort them according to their Rotten Tomatoes scores (*We get the Rotten Tomatoes scores trough the OMDB API.)
 
 
-### Python Functions, Files, and Dictionaries - A Sentiment Classifier
+### Course 2: Python Functions, Files, and Dictionaries.
 
-**Program to perform a sentiment analysis (with Twitter data in this particular case).**
+**A Sentiment Classifier. This program performs a sentiment analysis with Twitter data in this particular case.**
 
-The program reads through some collected raw Twitter data. Then makes a CSV file to produce a graph of your results and visualize data.
+The program reads through some collected raw Twitter tweets. Then makes a CSV file to produce a graph of your results and visualize the data.
+The CSV file shows the Number of Retweets, Number of Replies, Positive Score, Negative Score and Net Score of each twit.
+
 
