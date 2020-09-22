@@ -1,0 +1,38 @@
+ENVIRONMENT
+-----------
+conda info -e
+
+conda create -n py3env python=3.8.5 anaconda
+conda create -n py371 python=3.7.1 anaconda
+
+conda search “^python$”
+
+conda deactivate
+
+conda activate py3env
+
+conda install -n yourenvname package
+
+remove environment:
+conda remove -n envname --all
+remove package of an environment:
+conda remove -n myenv scipy
+
+set environment variable for anaconda 
+(path when install as single user not all users):
+set PATH=%PATH%;C:\Users\user\Anaconda3;C:\Users\user\Anaconda3\Scripts\
+
+LIBRARIES
+---------
+conda install -n py371 pillow ✓
+conda install -c conda-forge pytesseract ✓
+conda install numpy ✓
+conda install matplotlib ✓
+conda install opencv-python ✓
+
+pip install library
+pip show opencv-python
+
+*Dont mix conda installed libs with pip installed libs in the same environment
+
+
