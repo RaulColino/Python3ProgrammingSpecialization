@@ -12,13 +12,13 @@ Learn more about the specialization here: https://www.coursera.org/specializatio
 
 **Project consisting in the use of the libraries behind pillow, tesseract, and opencv in python to build a simple search application.**
 
-The program gets an input keyword. Then reads images in zip files with the ZipFile library (each image in the zip file is the page of a newspaper). And finally, it reads all the text in the images and outputs images of faces contained in the images where the keyword is found. The output is a contact sheet made with the PIL library.
+The program gets an input keyword. Then reads images in zip files with the ZipFile library (each image in the zip file is the page of a newspaper). And finally, it reads all the text in the images and outputs images of faces contained in the images where the keyword is found. 
 In other words, the code allows to search through the images looking for the occurrences of keywords and faces. 
-For example: if you search for "pizza" it will return a contact sheet of all the faces which were located on the newspaper page which mentions "pizza".
+For example: if you search for "pizza" it will return a contact sheet of all the faces which were located on the newspaper page which mentions "pizza". The output is a contact sheet made with the PIL library.
 
 ### Course 4: Python Classes and Inheritance
 
-**Wheel of Fortune game implemented with Python.**
+**Wheel of Fortune implemented with Python.**
 
 This project is the implementation of a simplified version of the game Wheel of Fortune. This is how the game works:
 <br/>
